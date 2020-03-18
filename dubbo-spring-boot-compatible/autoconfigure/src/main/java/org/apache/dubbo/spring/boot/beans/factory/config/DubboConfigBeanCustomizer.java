@@ -34,7 +34,7 @@ import static org.springframework.util.ReflectionUtils.invokeMethod;
  * @deprecated
  */
 @Deprecated
-class DubboConfigBeanCustomizer extends NamePropertyDefaultValueDubboConfigBeanCustomizer {
+public class DubboConfigBeanCustomizer extends NamePropertyDefaultValueDubboConfigBeanCustomizer {
 
     @Override
     public void customize(String beanName, AbstractConfig dubboConfigBean) {
